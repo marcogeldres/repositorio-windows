@@ -1,0 +1,23 @@
+TDD(Test Driven Development)):Desarrollo guiado por las pruebas.Para pruebas unitarias, porque el desarrllador escribe un programa
+BDD(Behauvior Driven Development):Desarrollo guiado por el comportamiento. 
+ATDD(Acceptance Test Driven Development):Desarrollo guiado por pruebas de aceptación.
+
+
+Test:
+1. Core de la lógica de negocio en general: (aqui se ven los condicionales que derivan a diferentes caminos, operaciones matematicas,
+)
+- prestar atención a los valores límite o no comunes: (número negativos , valores altos,nullos,cadenas vacias, division en cero,etc)
+es un abuena practicar estresar nuestro test
+2. Construcción de objetos
+3. trasiego de información entre capas: Movimiento de información entre capas.
+
+
+Programación que no ayuda a la creación de tests:
+- Estaticos, estan condenados a ser sociables y no se pueden aislar.
+-Metodos que hacen mas de una cosa.
+- Metodos con complejidades elevadas.
+
+
+Las pruebas unitarias te dicen qué testear, la TDD cuándo y la BDD cómo. Aunque todos se pueden utilizar de manera aislada,
+ se recomienda complementarlos para tener un código de alta que calidad que nos asegure que siempre va a cumplir 
+con nuestros requisito.
